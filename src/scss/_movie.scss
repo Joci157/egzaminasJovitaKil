@@ -1,0 +1,19 @@
+.movie {
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+.poster {
+  margin-right: 10px;
+  max-width: 300px;
+  max-height: 600px;
+}
+.information p {
+  font-size: 25px;
+}
+.error {
+  color: red;
+}
